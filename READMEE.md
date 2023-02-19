@@ -11,7 +11,7 @@
 <br>
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-red" alt="emblema de licença MIT">
-  <img src="https://img.shields.io/badge/Status-Finalizado-green" alt="emblema projeto finalizado.>
+  <img src="https://img.shields.io/badge/Status-Finalizado-green" alt="emblema projeto finalizado.">
 </div>
 
   

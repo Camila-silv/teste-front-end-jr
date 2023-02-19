@@ -1,0 +1,58 @@
+.main-content__section-banner {
+
+    width: 100%;
+    height: 395px;
+    background: url("../../images/Rectangle\ 250.png");   
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    .section-banner__wallpaper {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        height: 100%;
+    }
+
+    .section-banner__container-banner {
+
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+
+
+        .container-banner__label {
+
+            font-size: 4.8rem;            
+            line-height: 7.0rem;
+
+        }
+
+        .container-banner__label-discount {
+            font-size: 3.6rem;
+            margin-top: 1.0rem;
+        }
+
+        .container-banner__label, .container-banner__label-discount {
+
+            color: white;
+            font-weight: 600;
+        }        
+
+
+        .container-banner__button {
+
+            background-color: $pink;
+            border: none;
+            border-radius: .5rem;
+            width: 227px;
+            height: 60px;
+            font-size: 1.8rem;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 4.0rem;
+
+        }
+    }
+}

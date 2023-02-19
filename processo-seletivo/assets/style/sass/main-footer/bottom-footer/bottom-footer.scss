@@ -1,0 +1,45 @@
+.main-footer__bottom-footer {
+
+    width: 100%;
+    height: 7.0rem;
+    border-top: 2px solid #FFF;
+
+
+    .bottom-footer__container-bottom-footer {
+
+        width: 1280px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .container-bottom-footer__copyright {
+
+            .copyright__parag {
+    
+                font-size: 1.0rem;
+                font-weight: 40;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                line-height: 1.5rem;
+    
+            }
+        }
+    
+        .container-bottom-footer__companies {
+
+            display: flex;
+            gap: 4.0rem;
+    
+            .companies__img {
+    
+
+                
+            }
+        }
+
+    }
+
+    
+}

@@ -11,14 +11,14 @@
 <br>
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-red" alt="emblema de licença MIT">
-  <img src="https://img.shields.io/badge/Status-Finalizado-green" alt="emblema de constante desenvolvimento">
+  <img src="https://img.shields.io/badge/Status-Finalizado-green" alt="emblema projeto finalizado.>
 </div>
 
   
 <div align="left">
   
-   <h2>Tópicos</h2>
-
+  <h2>Tópicos</h2>
+             
  - [Descrição do Projeto](#descrição-do-projeto)
   
  - [Aplicação](#aplicação)
@@ -28,7 +28,7 @@
  - [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 
  - [Autor](#autor)
-  
+ 
 </div>
 
 <div align="left">

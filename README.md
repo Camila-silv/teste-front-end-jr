@@ -45,7 +45,7 @@
 
 <div align="left">
   <h2>Aplicação</h2>
-
+  <div align="center"><img height="700px" src="https://github.com/Camila-silv/teste-front-end-jr/blob/main/processo-seletivo/assets/images/gif/gif.gif?raw=true" alt="Gif ilustrativo sobre a aplicação desenvolvida nesse projeto."></div>
 </div>
 
 

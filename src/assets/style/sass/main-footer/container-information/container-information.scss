@@ -1,0 +1,57 @@
+.container-main-footer__container-information {
+
+    display: flex;
+    height: 325px;
+    display: flex;
+    justify-content: space-between;
+
+    .container-information__about-the-company {
+
+        display: flex;
+        width: 60%;
+        padding: 2.0rem 0;
+        justify-content: space-around;
+
+        .about-us__title,
+        .miscellaneous-information__title,
+        .payment-methods__title {
+
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #FFF;
+            margin-bottom: 3.5rem;
+            margin-top: 4.0rem;
+        }
+
+        .miscellaneous-information__title,
+        .payment-methods__title {
+
+            text-transform: uppercase;
+        }
+
+        .about-us__list-about-us,
+        .miscellaneous-information__list-miscellaneous-information {
+
+            display: flex;
+            flex-direction: column;
+            gap: 2.0rem;
+        }
+
+        .list-about-us__items,
+        .list-miscellaneous-information__items {
+
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #FFF;
+            text-transform: uppercase;
+        }
+
+        .about-the-company__about-us,
+        .about-the-company__miscellaneous-information,
+        .about-the-company__payment-methods {
+
+            height: 100%;
+        }
+
+    }
+}

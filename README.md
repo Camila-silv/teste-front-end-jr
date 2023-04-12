@@ -62,9 +62,11 @@
 <div align="left">
   <h2>Abrir e rodar o projeto</h2>
     <div>- Vá no canto superior direito no botao verde "Code", e clique na opção Download ZIP; </div>
-    <div>- Procure o local onde o projeto está e o extraí-a; </div> 
-    <div>- Clique no arquivo index dentro da pasta do projeto que a página será aberta dentro de alguns segundos; </div>
-  <div>- Para analisar o código tenha em seu computador um editor de código como <a href="https://code.visualstudio.com/download">VSCode</a>. </div>
+    <div>- Procure o local onde o projeto está e o extraí-a na pasta onde será carregado o projeto; </div> 
+    <div>- Abra o terminal nessa pasta escolhida, e digite o comando vite@latest. Pois a biblioteca do Vite será carregada; </div>
+    <div>- Na pasta que foi criada pelo comando anterior digite o próximo comando npm install </div>
+    <div>- Por último no terminal digite npm run dev </div>
+    <div>- Para analisar o código tenha em seu computador um editor de código como <a href="https://code.visualstudio.com/download">VSCode</a>. </div>
 </div>
 
 

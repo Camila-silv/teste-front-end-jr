@@ -1,0 +1,18 @@
+.main-content__brands-section {
+
+    width: 1250px;
+    height: 331px;
+    margin: 13.0rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    .brands-section__title {
+
+        font-size: 3.0rem;
+        font-weight: 700;
+        color: $pink;
+        text-align: center;
+    }
+}

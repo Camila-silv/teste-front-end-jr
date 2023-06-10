@@ -1,0 +1,22 @@
+.about-the-company__about-us {
+
+    position: relative;
+   
+
+
+    .about-us__icons-nets {
+
+       
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        gap: 3.5rem;
+
+        .icons-nets__icon {
+
+            cursor: pointer;
+            
+        }
+    }
+}
+

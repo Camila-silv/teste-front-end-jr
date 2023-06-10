@@ -1,0 +1,90 @@
+.container-information__container-receive-offers {
+
+    display: flex;
+    align-items: center;
+
+
+    .container-receive-offers__receive-offers {
+
+        height: 260px;
+        width: 380px;
+        background-color: #FFF;
+        border-radius: 1.0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+
+        .receive-offers__label {
+
+            text-transform: uppercase;
+        }
+
+
+        .receive-offers__label:nth-child(1n) {
+
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: #3F3F40;
+
+        }
+
+        .receive-offers__label:nth-child(2n) {
+            font-size: 2.1rem;
+            color: #3F3F40;
+            font-weight: 700;
+        }
+
+        .receive-offers__parag {
+
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #3F3F40;
+            text-align: center;
+            line-height: 2.0rem;
+            padding: 0 3.0rem;
+        }
+
+        .receive-offers__container-input {
+
+            height: 4.5rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+
+
+            .container-input__input {
+
+                height: 100%;
+                width: 230px;
+                font-size: 1.2rem;
+                color: #C0C0C0;
+                border: .1rem solid #2A2A2A;
+                border-radius: .4rem;
+                outline: none;
+                padding: 1.0rem 1.5rem;
+
+            }
+
+            .container-input__button {
+
+                background-color: $pink;
+                width: 6.2rem;
+                height: 100%;
+                font-size: 1.4rem;
+                font-weight: 700;                
+                color: #FFF;
+                border: none;
+                border-radius: .4rem;
+                cursor: pointer;
+            }
+
+            .container-input__input::placeholder, .container-input__button {
+
+                text-transform: uppercase;
+            }
+        }
+    }
+}

@@ -60,12 +60,11 @@
 </div>
 
 <div align="left">
-  <h2>Abrir e rodar o projeto</h2>
-    <div>- Vá no canto superior direito no botao verde "Code", e clique na opção Download ZIP; </div>
-    <div>- Procure o local onde o projeto está e o extraí-a na pasta onde será carregado o projeto; </div> 
-    <div>- Abra o terminal nessa pasta escolhida, e digite o comando vite@latest. Pois a biblioteca do Vite será carregada; </div>
-    <div>- Na pasta que foi criada pelo comando anterior digite o próximo comando npm install </div>
-    <div>- Por último no terminal digite npm run dev </div>
+  <h2>Abrir e rodar o projeto</h2>     
+    <div>- Digite o comando npm create vite@latest na pasta escolhida para armazenar esse projeto;</div>
+    <div>- Realize a instalação normalmente dessa biblioteca, e ao final da instalação peço que exclua os arquivos index.html e o src;</div>
+    <div>- No Github instale esse arquivo, e pegue apenas o index.html e o src, para adiciona-lo na pasta criada anteriormente;</div>
+    <div>- Feito ambos os passos, e já adicionado os arquivos na pasta, abra o cmd nessa pasta para executar o comando npm run dev; </div>
     <div>- Para analisar o código tenha em seu computador um editor de código como <a href="https://code.visualstudio.com/download">VSCode</a>. </div>
 </div>
 

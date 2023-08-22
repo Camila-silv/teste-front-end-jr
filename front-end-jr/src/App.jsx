@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { MainHeader, MainContent, MainFooter, Popup } from "./index";
+import { MainHeader, MainContent, MainFooter, Popup } from "./components/index";
 
 export default function App() {
   const [content, setContent] = useState([]);

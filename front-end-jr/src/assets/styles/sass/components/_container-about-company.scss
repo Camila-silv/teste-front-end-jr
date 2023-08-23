@@ -1,0 +1,66 @@
+.container-information__about-the-company {
+  display: flex;
+  width: 60%;
+  padding: 2rem 0;
+  justify-content: space-around;
+}
+
+.about-us__title,
+.miscellaneous-information__title,
+.payment-methods__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 3.5rem;
+  margin-top: 4rem;
+}
+
+.miscellaneous-information__title,
+.payment-methods__title {
+  text-transform: uppercase;
+}
+
+.about-us__list-about-us,
+.miscellaneous-information__list-miscellaneous-information {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-about-us__items,
+.list-miscellaneous-information__items {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.about-the-company__about-us,
+.about-the-company__miscellaneous-information,
+.about-the-company__payment-methods {
+  height: 100%;
+}
+
+.payment-methods__list-payment-methods {
+  display: flex;
+  width: 195px;
+  height: 193px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.about-the-company__about-us {
+  position: relative;
+}
+
+.about-us__icons-nets {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  gap: 3.5rem;
+}
+
+.icons-nets__icon {
+  cursor: pointer;
+}

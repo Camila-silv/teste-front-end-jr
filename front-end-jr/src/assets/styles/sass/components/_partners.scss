@@ -1,0 +1,68 @@
+.section-products__container-partners {
+  width: 1266px;
+  height: 370px;
+  margin: 3.5rem auto;
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-partners__information-box {
+  width: 574px;
+  height: 350px;
+  background: url("../../images/Mask\ Group.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.information-box__shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: 0;
+  left: 0;
+}
+
+.information-box__title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.information-box__label {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+
+.information-box__button {
+  border-radius: 1rem;
+  width: 131px;
+  height: 48px;
+  background-color: $dark-pink;
+  color: #fff;
+  border: none;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+}
+
+.information-box__title,
+.information-box__label,
+.information-box__button {
+  z-index: 1;
+}

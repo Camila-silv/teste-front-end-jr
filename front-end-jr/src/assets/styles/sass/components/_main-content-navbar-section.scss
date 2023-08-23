@@ -1,0 +1,44 @@
+.main-content__section-navbar {
+  width: 1277px;
+  margin: 3rem auto;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-navbar__selection-category {
+  height: 158px;
+}
+
+.selection-category__category-box {
+  width: 128px;
+  height: 128px;
+  background-color: #f4f4f4;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 1.1rem #00000038;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s linear;
+
+  &:hover {
+    transform: translateY(-0.5rem);
+  }
+}
+
+.selection-category__label {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+.category-box--selected {
+  background-color: #fff;
+}
+
+.label--selected {
+  color: $dark-pink;
+}

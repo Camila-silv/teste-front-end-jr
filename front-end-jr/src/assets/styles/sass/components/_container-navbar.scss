@@ -1,0 +1,29 @@
+.container-header__main-navbar {
+  width: 100%;
+  height: 4rem;
+  box-shadow: 0px 8px 16px #3930132d;
+}
+
+.main-navbar__container-nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+}
+
+.container-nav__links {
+  display: flex;
+  color: #9f9f9f;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.container-nav__links:last-child {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.container-nav__links--selected {
+  color: $dark-pink;
+}

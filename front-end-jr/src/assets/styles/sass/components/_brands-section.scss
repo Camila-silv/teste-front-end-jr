@@ -1,0 +1,31 @@
+.main-content__brands-section {
+  width: 1250px;
+  height: 331px;
+  margin: 13rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brands-section__title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: $dark-pink;
+  text-align: center;
+}
+
+.brands-section__container-brands {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-brands__brands {
+  width: 211px;
+  height: 211px;
+  border-radius: 50%;
+  box-shadow: 0 0.7rem 2rem #00000032;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

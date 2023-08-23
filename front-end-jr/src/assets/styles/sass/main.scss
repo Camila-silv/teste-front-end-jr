@@ -1,0 +1,35 @@
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/base";
+
+@import "./abstracts/variables";
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-content";
+@import "./layout/popup";
+
+
+//estilziação dos componentes do header
+
+@import "./components/container-navbar";
+@import "./components/container-search";
+@import "./components/container-benefits";
+
+
+
+//estilziação dos componentes do main-content
+
+
+@import "./components/carousel";
+@import "./components/partners";
+@import "./components/banner";
+@import "./components/brands-section";
+@import "./components/main-content-navbar-section";
+
+
+//estilziação dos componentes do footer
+
+@import "./components/container-bottom-footer";
+@import "./components/container-receive-offers";
+@import "./components/container-about-company"
